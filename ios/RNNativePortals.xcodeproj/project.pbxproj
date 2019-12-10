@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F666CFE2146C13100DBCDCF /* PortalDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F666CFD2146C13100DBCDCF /* PortalDestination.swift */; };
+		63501145239F357D008C1EB2 /* ReparentableRegistry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350113C239F357C008C1EB2 /* ReparentableRegistry.swift */; };
+		63501146239F357D008C1EB2 /* ReparentableDestinationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350113D239F357C008C1EB2 /* ReparentableDestinationManager.swift */; };
+		63501147239F357D008C1EB2 /* ReparentableDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6350113E239F357C008C1EB2 /* ReparentableDestination.swift */; };
+		63501149239F357D008C1EB2 /* ReparentableOrigin.m in Sources */ = {isa = PBXBuildFile; fileRef = 63501141239F357C008C1EB2 /* ReparentableOrigin.m */; };
+		6350114A239F357D008C1EB2 /* ReparentableOriginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63501142239F357D008C1EB2 /* ReparentableOriginManager.swift */; };
+		6350114B239F357D008C1EB2 /* ReparentableOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63501143239F357D008C1EB2 /* ReparentableOrigin.swift */; };
+		6350114C239F357D008C1EB2 /* ReparentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63501144239F357D008C1EB2 /* ReparentableView.swift */; };
 		B3E7B58A1CC2AC0600A0062D /* RNNativePortals.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNNativePortals.m */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +31,14 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNNativePortals.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNNativePortals.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F666CFC2146C13100DBCDCF /* RNNativePortals-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNNativePortals-Bridging-Header.h"; sourceTree = "<group>"; };
-		4F666CFD2146C13100DBCDCF /* PortalDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalDestination.swift; sourceTree = "<group>"; };
+		6350113B239F3573008C1EB2 /* RNNativePortals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNNativePortals.h; sourceTree = "<group>"; };
+		6350113C239F357C008C1EB2 /* ReparentableRegistry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableRegistry.swift; path = lib/ReparentableRegistry.swift; sourceTree = "<group>"; };
+		6350113D239F357C008C1EB2 /* ReparentableDestinationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableDestinationManager.swift; path = lib/ReparentableDestinationManager.swift; sourceTree = "<group>"; };
+		6350113E239F357C008C1EB2 /* ReparentableDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableDestination.swift; path = lib/ReparentableDestination.swift; sourceTree = "<group>"; };
+		63501141239F357C008C1EB2 /* ReparentableOrigin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReparentableOrigin.m; path = lib/ReparentableOrigin.m; sourceTree = "<group>"; };
+		63501142239F357D008C1EB2 /* ReparentableOriginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableOriginManager.swift; path = lib/ReparentableOriginManager.swift; sourceTree = "<group>"; };
+		63501143239F357D008C1EB2 /* ReparentableOrigin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableOrigin.swift; path = lib/ReparentableOrigin.swift; sourceTree = "<group>"; };
+		63501144239F357D008C1EB2 /* ReparentableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReparentableView.swift; path = lib/ReparentableView.swift; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNNativePortals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNNativePortals.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,10 +64,16 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				4F666CFD2146C13100DBCDCF /* PortalDestination.swift */,
+				6350113E239F357C008C1EB2 /* ReparentableDestination.swift */,
+				6350113D239F357C008C1EB2 /* ReparentableDestinationManager.swift */,
+				63501141239F357C008C1EB2 /* ReparentableOrigin.m */,
+				63501143239F357D008C1EB2 /* ReparentableOrigin.swift */,
+				63501142239F357D008C1EB2 /* ReparentableOriginManager.swift */,
+				6350113C239F357C008C1EB2 /* ReparentableRegistry.swift */,
+				63501144239F357D008C1EB2 /* ReparentableView.swift */,
+				6350113B239F3573008C1EB2 /* RNNativePortals.h */,
 				B3E7B5891CC2AC0600A0062D /* RNNativePortals.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				4F666CFC2146C13100DBCDCF /* RNNativePortals-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
@@ -116,8 +135,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F666CFE2146C13100DBCDCF /* PortalDestination.swift in Sources */,
+				6350114B239F357D008C1EB2 /* ReparentableOrigin.swift in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNNativePortals.m in Sources */,
+				63501146239F357D008C1EB2 /* ReparentableDestinationManager.swift in Sources */,
+				6350114A239F357D008C1EB2 /* ReparentableOriginManager.swift in Sources */,
+				6350114C239F357D008C1EB2 /* ReparentableView.swift in Sources */,
+				63501145239F357D008C1EB2 /* ReparentableRegistry.swift in Sources */,
+				63501149239F357D008C1EB2 /* ReparentableOrigin.m in Sources */,
+				63501147239F357D008C1EB2 /* ReparentableDestination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +152,7 @@
 		58B511ED1A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -144,6 +170,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -162,15 +189,18 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNNativePortals-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		58B511EE1A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -188,6 +218,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -199,8 +230,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNNativePortals-Bridging-Header.h";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -222,7 +255,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNNativePortals-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -242,7 +275,7 @@
 				PRODUCT_NAME = RNNativePortals;
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "RNNativePortals-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
